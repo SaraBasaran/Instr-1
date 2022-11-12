@@ -1,6 +1,8 @@
 package day11_practice_session;
 
 
+import java.util.Scanner;
+
 public class Q01_String_Manipulations {
 
     public static void main(String[] args) {
@@ -23,8 +25,11 @@ public class Q01_String_Manipulations {
         //Example 2:
         //Get the initial from full name.(Middle Name is out of scope).
         //Tom Hanks ==> TH
+        Scanner input= new Scanner(System.in);
+        System.out.println("Enter your fullname");
+        String fullName= input.next();
 
-        String fullName= "      Tom Hanks  ";
+        //String fullName= "      Tom Hanks  ";
 
         String initialOfFirstName= fullName.trim().substring(0, 1).toUpperCase();
         System.out.println("The initial is: " + initialOfFirstName); //T
