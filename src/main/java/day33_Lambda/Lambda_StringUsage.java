@@ -34,7 +34,7 @@ public class Lambda_StringUsage {
         System.out.println();
         printDistinctEleSortedByLastChar(l);//AMANDA MARK TOM JOHN JACKSON BEN ALBERTO TUCKER ALLEY MARRY
         System.out.println();
-        printSortedByLengthAndSortedByInitial(l);//BEN TOM TOM JOHN MARK ALLEY MARRY AMANDA TUCKER ALBERTO JACKSON
+        printSortedByLengthAndSortedByInitial(l);//BEN, TOM JOHN MARK ALLEY MARRY AMANDA TUCKER ALBERTO JACKSON
         System.out.println();
         //removeIfTheLengthIsGreaterThanFive(l);//[TOM, ALLEY, MARK, JOHN, MARRY, TOM, BEN]
         System.out.println();
@@ -52,7 +52,7 @@ public class Lambda_StringUsage {
 
      public static void printInUpperCase01(List<String> list){
         //1.way:
-        list.stream().map(String::toUpperCase).forEach(UtilsClass::printInTheSameLineWithASpace);
+        list.stream().distinct().map(String::toUpperCase).forEach(UtilsClass::printInTheSameLineWithASpace);
 
      }
     public static void printInUpperCase02(List<String> list){

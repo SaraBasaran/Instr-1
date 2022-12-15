@@ -18,7 +18,7 @@ public class E02 {
          "NumberFormatException", "IllegalArgumentException" are displayed on the console after running the code,
          therefore they are called "Run Time Exception"
 
-       4) There is compile time exception, they will be displayed before clicking on the run button. Therefore, they are
+       4) There is compiled time exception, they will be displayed before clicking on the run button. Therefore, they are
        called "Compile Time Exception"
 
          */

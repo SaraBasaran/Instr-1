@@ -17,7 +17,7 @@ public class Iterators01 {
      Therefore, Java created a new structure called "iterators" to remove some elements from a collections or modify some elements in collections
 
      There are 2 iterators: 1) Iterator ==> has one direction=> starts from index 0 upto the last index==> one direction from left to right
-                            2) rListIterato==>has two directions (bidirective) ==> starts from index 0 upto the last index and also vice-versa
+                            2) ListIterator==>has two directions (bidirective) ==> starts from index 0 upto the last index and also vice-versa
 
       for-each loop and Iterators have same performance but iterators are best to update and remove elements from collections.
 
@@ -35,7 +35,7 @@ public class Iterators01 {
 
         //Example 1: Remove the element "Can"
 
-        //Remove method doesnot work with for each loop
+       // Remove method doesnot work with for each loop
 //        for (String w: list1){
 //
 //            if(w.equals("Can")){
